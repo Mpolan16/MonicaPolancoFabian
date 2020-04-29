@@ -1,37 +1,14 @@
-/* Navbar styles HERE*/
-.navbar-brand{
-    padding: 20px;
-    background-color: hotpink;
-    font-family: 'Roboto Mono', monospace;
-}
-/*the whole page background*/
 body {
-    background-color: blanchedalmond;
     font-family: 'Roboto Mono', monospace;
+/* for sticky footer */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    color: black;
 }
-/*box around the whole about me page*/
-.col-sm-10 {
-    border: 1px solid gray ;
-    background-color: white;
+  main {
+    flex: 1 0 auto;
+  }
+#aboutMeColor {
+    color: blue;
 }
-/*the "about me" color*/
-#aboutmecolor{
-    padding: 5px;
-    color: rgb(21, 21, 248);
-}
-p {
-    color: lightseagreen;
-}
-/*try to make the picture and the text be together through "word wrap" of some sort*/
-.img-thumbnail {
-    float: left;
-    margin: 10px;
-}
-/*copyright HERE*/
-.col-sm-12{
-    padding: 30px;
-    text-align: center;
-    background-color: ivory;
-}
-
-
