@@ -1,14 +1,8 @@
 body {
-    font-family: 'Roboto Mono', monospace;
-/* for sticky footer */
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+    font-family: 'PT Sans', sans-serif;
     color: black;
 }
-  main {
-    flex: 1 0 auto;
-  }
-#aboutMeColor {
+#aboutMeHeader {
     color: blue;
+
 }
