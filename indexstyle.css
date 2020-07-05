@@ -4,7 +4,15 @@ body {
 }
 #aboutMeHeader {
     color: blue;
+    font-family: 'Source Code Pro', monospace;
 
+}
+#aboutMeText{
+    text-align: justify;
+    font-size: medium;
+}
+#headshot_Img {
+    text-align: center;
 }
 #footerIcons a {
     margin-left: 10px;
